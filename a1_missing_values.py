@@ -10,7 +10,7 @@ y= mlb_data.Price
 
 #prediction features
 p_f = mlb_data.drop(['Price'], axis=1)
-X = p_f.select_dtypes(exclude=['object'])
+X = p_f.select_dtypes(exclude=['object'])# here we are exclusing the string columns
 
 #split data into training and testing sets
 
