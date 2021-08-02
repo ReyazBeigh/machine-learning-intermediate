@@ -10,3 +10,5 @@
 `1) - Dropping the column/field at all`
 `2) - Giving them numerical values that can be sorted (Ordinal Encoding) but this can't be done every time, in some cases it won't be possbile`
 `3) Creating a new column for every value and marking the presence and absence in each record Know as One-hot encoding`
+
+Point worth noting: World is filled with Categorical Variables. If you know how to handle this common type then you will be a better data scientist!
