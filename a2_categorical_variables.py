@@ -31,6 +31,7 @@ numerical_cols = [cname for cname in train_X.columns if train_X[cname].dtype in 
 
 target_columns = low_cardinality_cols + numerical_cols
 
+#we are remvoing the columns with high cardinality
 X_train_selected = train_X[target_columns].copy()
 X_test_selected = test_X[target_columns].copy()
 
