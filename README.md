@@ -14,3 +14,5 @@
 Point worth noting: World is filled with Categorical Variables. If you know how to handle this common type then you will be a better data scientist!
 
 - Introduction to Pipelines, the concept of popelines helps in maintaining the code clean, make the models easily deployable, keep the datapreprocesisng and modelling code organised
+
+- Cross Validation Concept. In this method to validate the model we divide the given data set into multiple folds and then use on fold each time to validate the model
