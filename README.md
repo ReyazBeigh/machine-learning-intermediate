@@ -18,3 +18,5 @@ Point worth noting: World is filled with Categorical Variables. If you know how 
 - Cross Validation Concept. In this method to validate the model we divide the given data set into multiple folds and then use on fold each time to validate the model
 
 - the concept of new modeling method XGBoost - (Extream Gradient Boost), the underlying concept it with (1)Naive model(initital basic model) -> (2)Make Prediction -> (3)Calculate Loss -> (4)train new model-> (5) add new model to ensemble and then repeat from 2 till we have best score [internally mean squared error is used to calcualte loss]
+
+- Data Leakage are the problem related to the data that we use for prediction. Target Leakage and Train Test Contamination are the 2 types. Target leakage is occures when predictors include the data that is not available at the time of making predictions. Train Test Contamination happens when Train and test ain't carefully distinguish. Generally if cross val score is un exceptionally high, then we should look for Data Leakage before using the model in production  
