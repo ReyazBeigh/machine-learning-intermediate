@@ -16,3 +16,5 @@ Point worth noting: World is filled with Categorical Variables. If you know how 
 - Introduction to Pipelines, the concept of popelines helps in maintaining the code clean, make the models easily deployable, keep the datapreprocesisng and modelling code organised
 
 - Cross Validation Concept. In this method to validate the model we divide the given data set into multiple folds and then use on fold each time to validate the model
+
+- the concept of new modeling method XGBoost - (Extream Gradient Boost), the underlying concept it with (1)Naive model(initital basic model) -> (2)Make Prediction -> (3)Calculate Loss -> (4)train new model-> (5) add new model to ensemble and then repeat from 2 till we have best score [internally mean squared error is used to calcualte loss]
